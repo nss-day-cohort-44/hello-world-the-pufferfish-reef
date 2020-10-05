@@ -1,0 +1,35 @@
+.footerCopyright {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+
+  .country {
+    text-align: center;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.card {
+    padding: 5px;
+}
+
+
+
+img {
+  width: 250px;
+  border: 10px solid lightsteelblue
+}
+
+.MainImage {
+    width: 1000px;
+    border: 15px solid lightgray
+}
