@@ -1,0 +1,15 @@
+.country__image {
+    width: 700px;
+    justify-content: center;
+}
+.country {
+    text-align: center;
+}
+.cardContainer {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.card {
+    padding: 5px;
+}
