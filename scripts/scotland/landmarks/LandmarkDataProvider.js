@@ -1,15 +1,14 @@
 const landmarkCollection = [
     {
-        numb: "Tip 1",
-        saying: "All fish love salt. Pour an entire shaker in every day to ensure proper salinity. Do not worry about tank size; one shaker should be enough for any tank."
+        name: "Glasgow Green",
+        image: "https://www.glasgowtimes.co.uk/resources/images/10104155/?type=responsive-gallery"
     },
     {
-        numb: "Tip 2",
-        saying: "All fish love the cold. Kobe an ice cube in every 80 minutes to be safe."
-    },
-    
+        name: "Edinburgh Castle",
+        image: "https://www.edinburghcastle.scot/media/1068/concerts.jpg?anchor=center&mode=crop&width=500&height=300&rnd=131964542290000000"
+    }
 ]
-//The slice method returns a new copy of the array
+
 export const useLandmarks = () => {
     return landmarkCollection.slice()
 }
