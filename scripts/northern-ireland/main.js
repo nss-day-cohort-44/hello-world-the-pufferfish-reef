@@ -1,32 +1,32 @@
 // CELEBRITY FUNCTIONS
 
-import { celebrityList } from './CelebrityList.js'
-import { useCelebrity } from './CelebritiesDataProvider.js'
+import { celebrityList } from './celebrities/CelebrityList.js'
+// import { useCelebrity } from './CelebritiesDataProvider.js'
 
-const allTheCelebrities = useCelebrity()
+// const allTheCelebrities = useCelebrity()
 
-for (const celebrity of allTheLandmarks) {}
+// for (const celebrity of allTheLandmarks) {}
 
 celebrityList()
 
 // CITY FUNCTIONS
 
-import { useCity} from './CityDataProvider.js'
-import { cityList } from './CityList.js'
+// import { useCity} from './CityDataProvider.js'
+import { cityList } from './cities/CityList.js'
 
-const allTheCities = useCity()
+// const allTheCities = useCity()
 
-for (const city of allTheCities) {}
+// for (const city of allTheCities) {}
 
 cityList()
 
 // LANDMARK FUNCTIONS
 
-import { useLandmark } from './LandmarkDataProvider.js'
-import { landmarkList } from './LandmarkList.js'
+// import { useLandmark } from './LandmarkDataProvider.js'
+import { landmarkList } from './landmarks/LandmarkList.js'
 
-const allTheLandmarks = useLandmark()
+// const allTheLandmarks = useLandmark()
 
-for (const landmark of allTheLandmarks) {}
+// for (const landmark of allTheLandmarks) {}
 
 landmarkList()

@@ -2,9 +2,9 @@ import { useLandmark } from "./LandmarkDataProvider.js"
 import { Landmark } from "./Landmark.js"
 
 export const landmarkList = () => {
-const contentElement = document.querySelector(".card")
+const contentElement = document.querySelector(".col2")
 
-const celebrities = useLandmark()
+const landmarks = useLandmark()
 
 let landmarkHTMLRepresentations = ""
 for (const landmark of landmarks) {
