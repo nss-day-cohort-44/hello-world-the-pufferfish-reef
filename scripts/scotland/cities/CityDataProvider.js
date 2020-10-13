@@ -1,11 +1,11 @@
 const cityCollection = [
     {
-        numb: "Tip 1",
-        saying: "All fish love salt. Pour an entire shaker in every day to ensure proper salinity. Do not worry about tank size; one shaker should be enough for any tank."
+        name: "Glasgow",
+        image: "https://cdn.thecrazytourist.com/wp-content/uploads/2018/08/ccimage-shutterstock_484514338.jpg"
     },
     {
-        numb: "Tip 2",
-        saying: "All fish love the cold. Kobe an ice cube in every 80 minutes to be safe."
+        name: "Edinburgh",
+        image: "https://www.planetware.com/photos-large/SCO/scotland-edinburgh-castle.jpg"
     },
     
 ]
