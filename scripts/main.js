@@ -13,3 +13,11 @@ celebrityList ()
 import { LandmarksList } from './scotland/landmarks/landmarksList.js'
 
 LandmarksList ()
+
+import { cityList } from './northern-ireland/citiesCityList.js'
+
+cityList()
+
+import { landmarkList } from './northern-ireland/landmarks/LandmarkList.js'
+
+landmarkList ()

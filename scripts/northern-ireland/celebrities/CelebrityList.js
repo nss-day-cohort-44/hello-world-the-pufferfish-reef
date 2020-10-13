@@ -2,7 +2,7 @@ import { useCelebrity } from "./CelebritiesDataProvider.js"
 import { Celebrity } from "./Celebrity.js"
 
 export const celebrityList = () => {
-const contentElement = document.querySelector(".card")
+const contentElement = document.querySelector(".col3")
 
 const celebrities = useCelebrity()
 
