@@ -7,7 +7,7 @@ import { City } from './City.js'
 export const CitiesList = () => {
     //Reference to `<article class="content">`
    
-    const cityContent = document.querySelector(".card")
+    const cityContent = document.querySelector(".col1")
     const cities = useCities()
     // debugger
 

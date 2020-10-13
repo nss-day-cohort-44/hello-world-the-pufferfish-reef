@@ -2,7 +2,7 @@ import { useLandmarks } from "./LandmarkDataProvider.js"
 import { Landmark } from "./Landmark.js"
 
 export const LandmarksList = () => {
-const landmarkContent = document.querySelector(".card")
+const landmarkContent = document.querySelector(".col2")
 
 const landmarks = useLandmarks()
 

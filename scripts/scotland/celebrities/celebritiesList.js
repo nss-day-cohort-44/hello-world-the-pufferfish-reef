@@ -7,7 +7,7 @@ import { Celebrity } from './Celebrity.js'
 export const CelebritiesList = () => {
     //Reference to `<article class="content">`
    
-    const celebrityContent = document.querySelector(".card")
+    const celebrityContent = document.querySelector(".col3")
     const celebs = useCelebrities()
     
 
