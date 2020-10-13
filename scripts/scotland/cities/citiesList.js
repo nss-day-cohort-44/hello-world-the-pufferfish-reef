@@ -26,7 +26,7 @@ export const CitiesList = () => {
 
     //add to existing HTML in the cityContent
     cityContent.innerHTML += `
-    <article class="cityList">
+    <article class="card1">
         ${citiesHTMLRepresentations}
     </article>
     `

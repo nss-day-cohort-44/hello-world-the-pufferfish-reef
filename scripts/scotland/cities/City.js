@@ -4,9 +4,9 @@
 
 export const City = (cityObjects) => {
     return `
-        <div class="citiess">
-            <div class="city__name">${cityObjects.name}</div>
-            <div><img class="city__image" src="${cityObjects.image}"></div>
+        <div class="card1">
+            <div class="card__city">${cityObjects.name}</div>
+            <div><img class="card__image" src="${cityObjects.image}"></div>
         </div>
         `
 }

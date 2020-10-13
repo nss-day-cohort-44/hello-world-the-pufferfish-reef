@@ -1,12 +1,12 @@
 /**
- *  LAndmark: renders each individual landmark objects as HTML
+ *  Landmark: renders each individual landmark objects as HTML
  */
 
-export const Landmark = (landmarkObjects) => {
+export const Landmark = (landmarkObject) => {
     return `
-        <div class="landmarks">
-            <div class="landmark__number">${landmarkObjects.numb}</div>
-            <div class="tip__saying">${landmarkObjects.saying}</div>
+        <div class="card1">
+            <h6><div class="card__landmark">${landmarkObject.name}</div></h6>
+            <img class="card__image" src="${landmarkObject.image}" alt="">
         </div>
-        `
+    `
 }

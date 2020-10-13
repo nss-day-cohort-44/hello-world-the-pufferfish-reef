@@ -9,7 +9,7 @@ export const CelebritiesList = () => {
    
     const celebrityContent = document.querySelector(".card")
     const celebs = useCelebrities()
-    // debugger
+    
 
     // console.log(celebrityContent)
 
@@ -26,8 +26,8 @@ export const CelebritiesList = () => {
 
     //add to existing HTML in the celebrityContent
     celebrityContent.innerHTML += `
-    <article class="celebList">
-        ${celebsHTMLRepresentations}
-    </article>
+    <div class="card1">
+    ${celebsHTMLRepresentations}
+    </div>
     `
 }
