@@ -1,8 +1,8 @@
 export const Celebrity = (celebrityObject) => {
     return `
-        <div class="celebrity">
-            <p class="celebrity__name">${celebrityObject.name}</p>
-            <img class="celebrity__image" src="${celebrityObject.image}" alt="">
+        <div class="card1">
+            <p class="card__person">${celebrityObject.name}</p>
+            <img class="card__image" src="${celebrityObject.image}" alt="">
         </div>
 
     `
