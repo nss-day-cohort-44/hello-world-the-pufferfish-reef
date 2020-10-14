@@ -21,6 +21,13 @@
     border: 10px solid lightgray;
 }
 
+.country__image {
+    border: 15px solid lightgray;
+    width: 800px;
+    height: 500px;
+}
+
+
 h1 {
     text-align: center;
 }
